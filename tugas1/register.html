@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/register.css" />
+  <title>Register</title>
+</head>
+
+<body>
+
+  <div class="top-header">
+    <div class="logo">
+      <h1><a href="#">ZIYADA</a></h1>
+    </div>
+  </div>
+
+
+  <nav>
+    <div class="nav-menu">
+      <ul>
+        <li><a href="#">Menu</a></li>
+      </ul>
+    </div>
+
+    <div class="nav-register-login">
+      <ul>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Register</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="content-row">
+    <div class="content1">
+      <h1>Register</h1>
+
+
+      <form id="survey-form">
+        <div id="p" class="id">
+          <label for="id" id="name-label">ID </label>
+          <input type="text" id="id" name="id" placeholder="Masukan ID anda" required />
+        </div>
+
+        <div id="p" class="email">
+          <label for="email" id="email-label">Email </label>
+          <input type="email" id="email" name="email" placeholder="Masukan email anda" required />
+        </div>
+
+
+        <div id="p" class="jenis-kelamin">
+          <label>JK </label>
+          <input type="radio" name="gender" value="male" id="gender" /> Male</label>
+          <input type="radio" name="gender" value="female" id="gender" /> Female</label>
+        </div>
+
+        <div id="p" class="agama">
+          <label for="dropdown">Agama </label>
+          <select id="dropdown" name="occupation" required>
+            <option value="" disabled selected>Pilih beberapa opsi</option>
+            <option value="islam">Islam</option>
+            <option value="kristen">Kristen</option>
+            <option value="katolik">Katolik</option>
+            <option value="hindu">Hindu</option>
+            <option value="budha">Budha</option>
+            <option value="konghucu">konghucu</option>
+          </select>
+        </div>
+
+        <div id="p" class="alamat">
+          <label for="alamat "> Alamat </label>
+          <textarea id="alamat" name="alamat" placeholder="Isi Alamat"></textarea>
+
+        </div>
+
+        <div class="buttons">
+          <button id="button1">Daftar</button>
+          <button id="button2">Batal</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="content3">
+      <label> Hobi </label>
+
+    </div>
+
+    <div class="content2">
+
+      <form>
+        <label><input type="checkbox" name="hobby" value="reading" /> Mengaji</label>
+        <br>
+        <label><input type="checkbox" name="hobby" value="sports" />Jonging</label>
+        <br>
+        <label><input type="checkbox" name="hobby" value="music" />Musik</label>
+        <br>
+        <label><input type="checkbox" name="hobby" value="mancing" />Basket</label>
+        <br>
+        <label><input type="checkbox" name="hobby" value="otomotif" />Otomotif</label>
+        <br>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; Rachmat Taufik.</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
